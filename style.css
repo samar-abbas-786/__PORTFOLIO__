@@ -39,11 +39,10 @@ nav .left{
 }
 .right ul{
     height: 80px;
+    width:45vw;
     float: right;
-    width:50vw;
     display: flex;
     justify-content: space-evenly;
-    
     align-items: center;
 }
 .right ul li{
@@ -123,11 +122,13 @@ nav .left{
     color: rgb(235, 228, 228);
     font-weight: bolder;
     font-size: 17px;
+    box-shadow: 1px 2px gray;
     margin-top: 2rem;
 }
 .right ul li a:hover{
   color: gray;  
   transition: 0.25s;
+  background-color: #2B2A4C;
   /* border-bottom: 3.5px solid rgb(0, 0, 0); */
 }
 .btn:hover{
@@ -158,11 +159,12 @@ nav .left{
     .projects_Section h1{
         width: max-content;
         height: max-content;
-        padding: 14px 14px 14px 14px;
+        padding: 4px 14px 4px 14px;
         background-color: chocolate;
         margin: auto;
         font-family: sans-serif;
         border-radius: 30px;
+        font-size: 27px;
         /* transform: rotateZ(-4deg); */
 
     }
@@ -190,26 +192,26 @@ nav .left{
     width: max-content;
     height: max-content;
     padding: 10px 10px 10px 10px;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     border-radius: 20px;
     color: rgb(255, 103, 2); 
     margin-bottom: 10px;
 }
 .proj_Pic{
-    width: 65vw;
+    width: 55vw;
     height: 450px;
-    background-image: url(CFC.png);
+    background-image: url( /images/CFC.png);
     background-position: center;
     background-size: cover;
-    border: 5px solid orange;
+    /* border: 5px solid orange; */
 }
 .proj_Pic2{
-    width: 65vw;
+    width: 55vw;
     height: 450px;
-    background-image: url(AVS_page.png);
+    background-image: url(/images/AVS_page.png);
     background-position: center;
     background-size: cover;
-    border: 5px solid orange;
+    /* border: 5px solid orange; */
 }
 
 .proj_Pic img,.proj_Pic2 img{
@@ -247,4 +249,221 @@ nav .left{
 .visit img{
     height: 16px;
     width: 16px;
+}
+.GetInTouch{
+    height: 100vh;
+    width: 100vw;
+    background-color: #2B2A4C;
+    /* border-top: 4px solid #000; */
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 2rem;
+}
+#arrow{
+    margin-left: 4rem;
+}
+.GetInTouch h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.social_media,.form{
+    width: 45vw;
+    height: 100vh;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#formm{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+align-items: center;}
+
+.form h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+}
+.form input{
+    height: 40px;
+    width: 300px;
+    outline: none;
+    text-align: center;
+    border: none;
+    border-radius: 7px;
+}
+#Message{
+    height: 100px;
+}
+.form button{
+    height: 38px;
+    width: 140px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+
+}
+.box1,.box2,.box3{
+               height: 150px;
+               width: 300px;
+               border: 1px solid black;
+               border-radius:25px;
+               color: white;
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               justify-content: space-around;
+               font-size: 18px;
+               background-color: black;
+}
+.box1 pre{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.social_media button{
+    width:120px;
+    height:30px;
+    border: none;
+    outline: none;
+    background-color: rgb(37, 2, 194);
+    color: white;
+    border-radius: 20px;
+}
+.box1 img{
+    height: 35px;
+    width: 35px;
+}
+.link img{
+    height: 30px;
+    width: 30px;
+}
+.IGL{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    background-color: #2B2A4C;
+    display: flex;
+    justify-content: end;
+    padding-right: 8rem;
+}
+.l1{
+    height: 80px;
+    width: 80px;
+
+    
+}
+.l1 img{
+    height: 40px;
+    width: 40px;
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 512px){
+.right ul{
+    display: none;
+}
+.left{
+    font-size: 15px;
+}
+.hero{
+}
+.hero .text{
+    width: 50vw;
+    height:200px;
+
+}
+.hero .text span{
+    font-size: 20px;
+}
+.hero .text h2{
+    font-size: 25px;
+}
+.hero .text h3{
+    font-size: 15px;
+    margin-bottom: 3rem;
+}
+.hero .text h1{
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.hero .pic{
+    width: 30vw;
+    height: max-content;
+    padding-bottom: 7rem;
+}
+.hero .pic img{
+     height: 130px;
+     width: 130px;
+}
+.hero .btn{
+            height:30px;
+            width:100px;
+            padding: 5px 8px 8px 5px;
+            font-size: 13px;
+            border-radius: 7px;
+            margin: auto;
+            margin-left: 7rem;
+}
+.projects_Section{
+    text-align: center;
+    /* background-color: rgb(0, 0, 0); */
+}
+.projects_Section h1{
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 8px 8px 8px 8px;
+    margin-top: 2rem;
+}
+.project1{
+    flex-direction: column;
+    width: 100vw;
+    height: 500px;
+    margin-top: 0.5rem;
+}
+.proj_Details{
+    width: 100vw;
+    font-size: 15px;
+    border: 1px solid transparent;
+}
+.proj_Pic,.proj_Pic2{
+    width: 80vw;
+    height: 200px;
+    margin: auto;
+}
+.proj_Details h3{
+    font-size: 17px;
+    padding-left: 7px 7px 7px 7px;
+    border-radius: 8px;
+    text-decoration: underline;
+}
+.GetInTouch{
+    flex-direction: column;
+    height: max-content;
+    text-align: center;
+    padding-top: 2rem;
+}
+.GetInTouch h1{
+font-size: 25px;
+}
+#arrow{
+    margin-right: 4rem;
+    height: 40px;
+    width: 40px;
+}
+.box1,.box2,.box3{
+    font-size: 16px;
+}
+.IGL{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+}
 }
