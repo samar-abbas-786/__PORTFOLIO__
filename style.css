@@ -51,11 +51,17 @@ nav .left{
    font-style: italic;
 }
 .right ul li a{
+    height: max-content;
+    width: max-content;
+    padding: 15px 15px 15px 15px;
+    background-color: black;
+    border-radius:20px;
     text-decoration: none;
     font-family: sans-serif;
   color: rgb(244, 241, 241);  
     font-size: 18px;
     font-weight: bold;
+    
 }
 .hero{
     height: 100vh;
@@ -141,6 +147,7 @@ nav .left{
     text-align: center;
     color: white;
     position:relative
+    
 }
 /* .proj_container{
     height: 450px;
@@ -154,6 +161,8 @@ nav .left{
         padding: 14px 14px 14px 14px;
         background-color: chocolate;
         margin: auto;
+        font-family: sans-serif;
+        border-radius: 30px;
         /* transform: rotateZ(-4deg); */
 
     }
@@ -174,6 +183,7 @@ nav .left{
     justify-content: center;
     align-items: center;
     font-weight:100;
+    color: rgb(173, 168, 168);
 
 }
 .proj_Details h3{
@@ -191,9 +201,18 @@ nav .left{
     background-image: url(CFC.png);
     background-position: center;
     background-size: cover;
-    border: 5px solid white;
+    border: 5px solid orange;
 }
-.proj_Pic img{
+.proj_Pic2{
+    width: 65vw;
+    height: 450px;
+    background-image: url(AVS_page.png);
+    background-position: center;
+    background-size: cover;
+    border: 5px solid orange;
+}
+
+.proj_Pic img,.proj_Pic2 img{
     width: 60vw;
     height: 500px;
 }
