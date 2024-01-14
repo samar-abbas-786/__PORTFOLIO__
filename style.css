@@ -14,12 +14,13 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: gainsboro;
+    background-color: #2B2A4C;
     position: fixed;
     z-index: 1;
 }
 nav .left{
     width: 30vw;
+    color: white;
     height: 80px;
     display: flex;
     align-items: center;
@@ -42,15 +43,17 @@ nav .left{
     width:50vw;
     display: flex;
     justify-content: space-evenly;
+    
     align-items: center;
 }
 .right ul li{
     list-style: none;
+   font-style: italic;
 }
 .right ul li a{
     text-decoration: none;
     font-family: sans-serif;
-    color: rgb(0, 0, 0);
+  color: rgb(244, 241, 241);  
     font-size: 18px;
     font-weight: bold;
 }
@@ -60,13 +63,14 @@ nav .left{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: gainsboro;
+    background-color: #2B2A4C;
 }
 .text{
     height: 70vh;
     width: 45vw;
     display: flex;
     flex-direction: column;
+    color: white;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -81,9 +85,18 @@ nav .left{
     font-size: 3rem;
 
 }
+.text h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2rem;
+    font-weight: 200;
+    word-spacing:0.6rem;
+}
 .text span{
     font-weight: bold;
-    font-size: 26px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.1rem;
+    margin-left: 1.5rem;
 }
 .pic{
    height: 70vh;
@@ -100,7 +113,7 @@ nav .left{
     height: 35px;
     width: 130px;
     border-radius: 4px;
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
     color: rgb(235, 228, 228);
     font-weight: bolder;
     font-size: 17px;
@@ -117,15 +130,102 @@ nav .left{
 
 /* PROJECT SECTION */
 
-.project_Section{
-    height: 600px;
+.projects_Section{
+    height: max-content;
     width: 100vw;
     display: flex;
     flex-direction: column;
+    background-color: #2B2A4C;
     text-align: center;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    position:relative
 }
-.proj_container{
+/* .proj_container{
     height: 450px;
     width: 100vw;
     border: 1px solid black;
+    /* display: flex; */
+
+    .projects_Section h1{
+        width: max-content;
+        height: max-content;
+        padding: 14px 14px 14px 14px;
+        background-color: chocolate;
+        margin: auto;
+        /* transform: rotateZ(-4deg); */
+
+    }
+
+.project1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+.proj_Details{
+    width: 30vw;
+    height: 500px;
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight:100;
+
+}
+.proj_Details h3{
+    width: max-content;
+    height: max-content;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    border-radius: 20px;
+    color: rgb(255, 103, 2); 
+    margin-bottom: 10px;
+}
+.proj_Pic{
+    width: 65vw;
+    height: 450px;
+    background-image: url(CFC.png);
+    background-position: center;
+    background-size: cover;
+    border: 5px solid white;
+}
+.proj_Pic img{
+    width: 60vw;
+    height: 500px;
+}
+.visit{
+    height: 25px;
+    width: 110px;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(255, 220, 21);
+    margin-top: 20px;
+
+}
+.btnP{
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.btnP1{
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 3px 3px 3px 3px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    color: rgb(5, 5, 5);
+}
+.visit img{
+    height: 16px;
+    width: 16px;
 }
