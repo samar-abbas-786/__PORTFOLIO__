@@ -45,3 +45,20 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(element);
   });
 });
+
+// REAL JS
+
+document.querySelectorAll(".left").forEach((element) => {
+  element.addEventListener("mousein", () => {
+    element.querySelector("h1").style.color = "chocolate";
+    element.querySelector("span").style.color = "white";
+    element.style.transition = "1s";
+  });
+});
+document.querySelectorAll(".left").forEach((element) => {
+  element.addEventListener("mouseout", () => {
+    element.querySelector("h1").style.color = "white";
+    element.querySelector("span").style.color = "chocolate";
+    element.style.transition = "1s";
+  });
+});
