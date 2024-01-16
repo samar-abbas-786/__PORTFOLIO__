@@ -17,6 +17,7 @@ main{
     width: 100vw;
 }
 
+
 nav{
     height: 80px;
     width: 100vw;
@@ -139,7 +140,7 @@ nav .left{
     height: 35px;
     width: 130px;
     border-radius: 4px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(221, 119, 9);
     color: rgb(235, 228, 228);
     font-weight: bolder;
     font-size: 17px;
@@ -229,16 +230,16 @@ nav .left{
     text-decoration: underline;
 }
 .proj_Pic{
-    width: 55vw;
-    height: 450px;
+    width: 60vw;
+    height: 400px;
     background-image: url( /images/CFC.png);
     background-position: center;
     background-size: cover;
     /* border: 5px solid orange; */
 }
 .proj_Pic2{
-    width: 55vw;
-    height: 450px;
+    width: 60vw;
+    height: 400px;
     background-image: url(/images/AVS_page.png);
     background-position: center;
     background-size: cover;
@@ -261,6 +262,13 @@ nav .left{
     margin-top: 20px;
     color: white;
 }
+.visit:hover{
+    background-color: rgb(151, 68, 9);
+    transition: 0.9s;
+    font-size: 20.5px;
+    height: 32px;
+    width: 132px;
+}
 .btnP{
     width: 20vw;
     display: flex;
@@ -277,9 +285,16 @@ nav .left{
     font-weight: bold;
     color: rgb(5, 5, 5);
 }
+.visit{
+    height: max-content;
+    width: 100px;
+    padding: 5px 5px 5px 5px;
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+}
 .visit img{
-    height: 16px;
-    width: 16px;
+    height: 12px;
+    width: 12px;
 }
 .GetInTouch{
     height: 100vh;
@@ -364,13 +379,22 @@ align-items: center;}
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .social_media button{
-    width:120px;
+    width: max-content;   
     height:30px;
     border: none;
     outline: none;
+    padding: 10px 10px 10px 10px;
     background-color: rgb(37, 2, 194);
     color: white;
+    font-weight: bold;
     border-radius: 20px;
+}
+.social_media button:hover{
+    font-size: 14px;
+    transition: 0.65s;
+    color: black;
+    background-color:rgb(243, 247, 249);
+   
 }
 .box1 img{
     height: 35px;
@@ -380,6 +404,7 @@ align-items: center;}
     height: 30px;
     width: 30px;
 }
+
 .IGL{
     height: 100px;
     width: 100vw;
@@ -398,6 +423,11 @@ align-items: center;}
 .l1 img{
     height: 40px;
     width: 40px;
+}
+.l1 img:hover{
+    height: 45px;
+    width: 45px;
+    transition: 0.4s;
 }
 .about{
     height: 650px;
@@ -599,4 +629,5 @@ font-size: 25px;
 footer{
     font-size: 13px;
 }
+
 }

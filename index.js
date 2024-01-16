@@ -95,3 +95,13 @@ openEmail = () => {
     "mailto:samarabbas172003@gmail.com?subject=Hello&body=Body%20of%20the%20email";
   window.location.href = url;
 };
+
+AVS = () => {
+  const url = "https://aligeriansvisionaryclasses.com/";
+  window.open(url, "_blank");
+};
+
+CFC = () => {
+  const url = "https://gym-website-virid.vercel.app/";
+  window.open(url, "_blank");
+};
