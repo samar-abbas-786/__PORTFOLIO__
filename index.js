@@ -105,3 +105,7 @@ CFC = () => {
   const url = "https://gym-website-virid.vercel.app/";
   window.open(url, "_blank");
 };
+resume = () => {
+  url = "images/LAB_RESUME.pdf";
+  window.open(url, "_blank");
+};

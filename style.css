@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+  
+}
 .hidden{
     opacity:0;
     transform: translateY(200px);
@@ -24,9 +27,13 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2B2A4C;
+    background-image: url(images/back2.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-color: #2B2A4C; */
     position: fixed;
     z-index: 1;
+    border-bottom: 3.5px solid black;
 }
 nav .left{
     width: 30vw;
@@ -90,7 +97,12 @@ nav .left{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #2B2A4C;
+    /* background-color: #2B2A4C; */
+    background-image: url(images/back2.jpg);
+    border-bottom: 3.5px solid black;
+box-shadow: 2px 6px rgb(8, 0, 43);
+    background-position: center;
+    background-size: cover;
 }
 .text{
     height: 70vh;
@@ -137,24 +149,36 @@ nav .left{
        height: 22rem;
 }
 .btn{
-    height: 35px;
+    height: 40px;
     width: 130px;
-    border-radius: 4px;
+    border-radius: 6px;
     background-color: rgb(221, 119, 9);
-    color: rgb(235, 228, 228);
-    font-weight: bolder;
-    font-size: 17px;
-    box-shadow: 1px 2px gray;
+    /* color: rgb(235, 228, 228); */
+    font-weight: 600;
+    font-size: 18px;
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn img{
+    height: 30px;
+    /* width: 30px; */
 }
 .right ul li a:hover{
   color: gray;  
   transition: 0.25s;
-  background-color: #2B2A4C;
+  /* background-color: #2B2A4C; */
   /* border-bottom: 3.5px solid rgb(0, 0, 0); */
+  background-image: url(images/back2.jpg);
+  background-position: center;
+  background-size: cover;
 }
 .btn:hover{
-    background-color: navy;
+    width: 140px;
+    font-size: 19px;
+    background-color: rgb(186, 90, 17);
+    transition: 0.4s;
 }
 
 /* PROJECT SECTION */
@@ -164,7 +188,12 @@ nav .left{
     width: 100vw;
     display: flex;
     flex-direction: column;
-    background-color: #2B2A4C;
+    /* background-color: #2B2A4C; */
+    background-image: url(images/back2.jpg);
+    border-bottom: 3.5px solid black;
+
+    background-position: center;
+    background-size: cover;
     text-align: center;
     justify-content: space-evenly;
     text-align: center;
@@ -179,14 +208,16 @@ nav .left{
     /* display: flex; */
 
     .projects_Section h1{
-        width: max-content;
-        height: max-content;
-        padding: 4px 14px 4px 14px;
-        background-color: chocolate;
+        /* width: max-content;
+        height: max-content; */
+        /* padding: 4px 14px 4px 14px; */
+        /* background-color: chocolate; */
         margin: auto;
         font-family: sans-serif;
         /* border-radius: 30px; */
-        font-size: 27px;
+        font-size: 2.5rem;
+        letter-spacing:0.6rem;
+       color: white;
         /* transform: rotateZ(4deg); */
 
     }
@@ -264,8 +295,9 @@ nav .left{
 }
 .visit:hover{
     background-color: rgb(151, 68, 9);
-    transition: 0.9s;
-    font-size: 20.5px;
+    transition: 0.6s;
+    font-size: 20.1px;
+
     height: 32px;
     width: 132px;
 }
@@ -299,7 +331,12 @@ nav .left{
 .GetInTouch{
     height: 100vh;
     width: 100vw;
-    background-color: #2B2A4C;
+    /* background-color: #2B2A4C; */
+    background-image: url(images/back2.jpg);
+    background-position: center;
+    border-bottom: 3.5px solid black;
+
+    background-size: cover;
     /* border-top: 4px solid #000; */
     color: white;
     display: flex;
@@ -312,7 +349,9 @@ nav .left{
 }
 .GetInTouch h1{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.6rem;
 }
+
 .social_media,.form{
     width: 45vw;
     height: 100vh;
@@ -408,11 +447,18 @@ align-items: center;}
 .IGL{
     height: 100px;
     width: 100vw;
+    /* background-color: #2B2A4C; */
+    /* background-image: url(images/back2.jpg);
+    border-bottom: 3.5px solid black;
+    background-position: center; */
+    background-color: black;
+    /* background-size: cover; */
     display: flex;
-    background-color: #2B2A4C;
-    display: flex;
-    justify-content: end;
-    padding-right: 8rem;
+    justify-content: center;
+    /* justify-content: end; */
+    /* padding-right: 8rem; */
+    align-items: center;
+    padding-top: 1.1rem;
 }
 .l1{
     height: 80px;
@@ -433,8 +479,13 @@ align-items: center;}
     height: 650px;
     width: 100vw;
     /* background-color: #f3f3f6; */
-    background-color: #2B2A4C;
+    /* background-color: #2B2A4C; */
     /* border-top: 4px solid white; */
+    background-image: url(images/back2.jpg);
+    border-bottom: 3.5px solid black;
+
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -490,10 +541,14 @@ align-items: center;}
 footer{
     height: 50px;
     width: 100vw;
-    background-color: #2B2A4C;
+    /* background-color: #2B2A4C; */
     border-top: 1px solid #d8d3d3;
     color: white;
     font-size: 16px;
+    /* background-image: url(images/back2.jpg);
+    background-position: center;
+    background-size: cover; */
+    background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: center;
@@ -545,14 +600,14 @@ footer{
             font-size: 13px;
             border-radius: 7px;
             margin: auto;
-            margin-left: 7rem;
+            /* margin-left: 7rem; */
 }
 .projects_Section{
     text-align: center;
     /* background-color: rgb(0, 0, 0); */
 }
 .projects_Section h1{
-    font-size: 18px;
+    font-size: 27px;
     border-radius: 5px;
     padding: 8px 8px 8px 8px;
     margin-top: 2rem;
@@ -587,7 +642,7 @@ footer{
     padding-top: 2rem;
 }
 .GetInTouch h1{
-font-size: 25px;
+font-size: 28px;
 }
 #arrow{
     margin-right: 4rem;
@@ -602,7 +657,8 @@ font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 0;
+    padding-top: 1.5rem;
+    padding-left: 3.0rem;
 }
 .about{
     flex-direction: column;
