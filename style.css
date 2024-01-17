@@ -6,7 +6,7 @@
 body{
   
 }
-.hidden{
+/* .hidden{
     opacity:0;
     transform: translateY(200px);
     transition: all 1.5s ease;
@@ -14,7 +14,7 @@ body{
 .active{
     opacity: 1;
     transform: translateY(0);
-}
+} */
 main{
     height: 100vh;
     width: 100vw;
@@ -149,8 +149,8 @@ box-shadow: 2px 6px rgb(8, 0, 43);
        height: 22rem;
 }
 .btn{
-    height: 40px;
-    width: 130px;
+    height: 43px;
+    width: 160px;
     border-radius: 6px;
     background-color: rgb(221, 119, 9);
     /* color: rgb(235, 228, 228); */
@@ -366,11 +366,12 @@ box-shadow: 2px 6px rgb(8, 0, 43);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-align-items: center;}
+    align-items: center;
+}
 
 .form h3{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 28px;
+    font-size: 35px;
 }
 .form input{
     height: 40px;
@@ -522,7 +523,7 @@ align-items: center;}
     font-size: 25px;
     word-spacing: 3px;
     padding-top: 2rem;
-    color: rgb(185, 179, 179);
+    color: rgb(173, 168, 168);
     background-color: black;
     padding: 20px 20px 20px 20px;
     border-radius: 7px;
@@ -556,7 +557,7 @@ footer{
 }
 
 /* RESPONSIVE */
-@media screen and (max-width: 512px){
+@media screen and (max-width: 800px){
 .right ul{
     display: none;
 }
@@ -594,11 +595,11 @@ footer{
      width: 130px;
 }
 .hero .btn{
-            height:30px;
-            width:100px;
+            height:40px;
+            width:120px;
             padding: 5px 8px 8px 5px;
-            font-size: 13px;
-            border-radius: 7px;
+            font-size: 16px;
+            border-radius: 8px;
             margin: auto;
             /* margin-left: 7rem; */
 }
@@ -615,7 +616,7 @@ footer{
 .project1{
     flex-direction: column;
     width: 100vw;
-    height: 500px;
+    height: 650px;
     margin-top: 0.5rem;
 }
 .proj_Details{
@@ -640,9 +641,15 @@ footer{
     height: max-content;
     text-align: center;
     padding-top: 2rem;
+    padding-right: 2rem;
 }
 .GetInTouch h1{
 font-size: 28px;
+}
+
+.form h3{
+    font-size: 32px;
+    width: 80vw;
 }
 #arrow{
     margin-right: 4rem;
