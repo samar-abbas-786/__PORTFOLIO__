@@ -313,11 +313,11 @@ box-shadow: 2px 6px rgb(8, 0, 43);
     padding: 5px 5px 5px 5px;
     font-size: 16px;
     margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
 }
-.visit img{
-    height: 12px;
-    width: 12px;
-}
+
+
 .GetInTouch{
     height: 100vh;
     width: 100vw;
@@ -675,9 +675,6 @@ footer{
    
     padding: 2px 2px 2px 2px;
 }
-.visit img{
-    height: 10px;
-    width: 10px;
-}
+
 
 }
