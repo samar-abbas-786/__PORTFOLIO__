@@ -61,3 +61,24 @@ resume = () => {
   url = "images/LAB_RESUME.pdf";
   window.open(url, "_blank");
 };
+
+function theme() {
+  document.querySelectorAll(".back").forEach((element) => {
+    console.log("Working");
+
+    // Check if the element has a specific class
+    if (element.classList.contains("black-theme")) {
+      // If the class is present, remove it and set a different background image
+      element.classList.remove("black-theme");
+      element.style.backgroundImage = "url('images/back2.jpg')";
+    } else {
+      // If the class is not present, add it and set the black background image
+      element.classList.add("black-theme");
+      element.style.backgroundImage = "url('images/black.jpg')";
+    }
+  });
+}
+/* document.querySelectorAll("..right ul li a").forEach((element) => {
+      element.style.backgroundColor = "white";
+      element.style.color = "black";
+    });*/

@@ -8,7 +8,7 @@
   </head>
   <body>
     <main>
-      <nav id="nav  " >
+      <nav id="nav" class="back">
         <div class="left   " onmouseleave="leave()" onmouseenter="enter()">
          <h1>SAMAR <span>ABBAS</span></h1>
         </div>
@@ -22,21 +22,21 @@
           </ul>
         </div>
       </nav>
-
-      <div class="hero  ">
+      <div class="hero back ">
         <div class="text  ">
         <span>HELLO!</span>
         <h2>I am </h2>
         <h1>  SAMAR  ABBAS  </h1>
         <h3>FULL STACK DEVELOPER</h3>
        <a href="images/LAB_RESUME.pdf" download="" style="text-decoration: none;"><button class="btn" onclick="resume()" download>Resume <div><img src="images/download.svg" alt="" srcset=""></div></button></a> 
+       <button onclick="theme()" class="btn" style="background-color: black; color: white; width: auto;padding: 10px 10px 10px 10px;margin-top: 1rem;">Change Theme</button>
     </div>
 
         <div class="pic  ">
           <img src="/images/heropic.png" alt="" srcset="" />
         </div>
     </main>
-    <div class="about" id="about">
+    <div class="about back" id="about">
       <h1>ABOUT</h1>
       <div class="about_text">
         <h3>Innovation-Driven Full Stack</h3>
@@ -45,7 +45,7 @@
       <div class="about_vd"></div>
   
     </div>
-    <div class="skills">
+    <div class="skills back">
       <div class="skill_link">
       <img src="images/js.png" alt="" srcset="">
       <img src="images/nodejs.png" alt="" srcset="">
@@ -57,7 +57,7 @@
 
     </div>
   
-    <div class="projects_Section hidden" id="projects" >
+    <div class="projects_Section back" id="projects" >
     <h1>PROJECTS</h1>
             <div class="project1  " >
             <div class="proj_Details">
@@ -78,7 +78,7 @@
   </div>
   </div>
   </div>
-  <div class="GetInTouch " id="GetInTouch"> 
+  <div class="GetInTouch back " id="GetInTouch"> 
     <h1>LETS CONNECT <img src="/images/arr_Icon.png" alt="" id="arrow" srcset=""></h1>
     <div class="social_media">
       <div class="box1  ">
@@ -97,19 +97,19 @@
         <button class="link" onclick="openLink()">Check Profile</button>
       </div>
     </div> 
-    <div class="form  " name="PORTFOLIO">
+    <div class="form " name="PORTFOLIO">
       <h3>Share Your Project Idea</h3>
       <form action=""  id="formm">
        <input type="text" placeholder="Write Your Name" name="name">
        <input type="email" placeholder="Your Email " name="email">
        <input type="text" placeholder="Project-Idea" id="Message" name="Message" >
-   <button type="submit">Message</button>
+   <button type="submit" onclick="theme()" >Message</button>
       </form>
     </div>
     
 
   </div>
-  <div class="IGL  ">
+  <div class="IGL" >
     <div class="l1  "><img src="/images/rgit.png" alt="" srcset="" onclick="openGit()"></div>
     <div class="l1  "><img src="/images/instagram.png" alt="" onclick="openInsta()"></div>
     <div class="l1  "><img src="/images/linkedin.png" alt="" srcset="" onclick="openLink()"></div>
